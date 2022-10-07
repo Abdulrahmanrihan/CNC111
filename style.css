@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.container{
+    width: 100%;
+}
+
+.banner{
+    display: flex;
+    background-image: url("/images/maro.jpg");
+    opacity: 0.8;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    height: 600px;
+}
+
+.title{
+    font-weight: bold;
+    color: black;
+    font-size: 74px;
+    margin: 0 auto;
+    text-align: center;
+}
