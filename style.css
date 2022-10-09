@@ -10,7 +10,6 @@ body{
 .banner{
     display: flex;
     background-image: url("/images/maro.jpg");
-    opacity: 0.8;
     background-size: cover;
     width: 100%;
     align-items: center;
@@ -20,7 +19,53 @@ body{
 .title{
     font-weight: bold;
     color: black;
+    background-color: aliceblue;
+    opacity: 0.8;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
     font-size: 74px;
     margin: 0 auto;
     text-align: center;
+}
+
+.navbar{
+    padding: 30px 60px 30px 60px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    border-top: grey 1px solid;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: black;
+}
+
+.about{
+    margin-top: 180px;
+    display: flex;
+    width:100%;
+    flex-direction: column;
+}
+
+.about-row{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+}
+
+.left-about{
+    padding: 60px;
+    flex: 1;
+}
+
+.right-about{
+    padding: 60px;
+    flex: 1;
+}
+
+.little-texts{
+    background-color: antiquewhite;
 }
